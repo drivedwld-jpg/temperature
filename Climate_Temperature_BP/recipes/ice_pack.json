@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "climate:ice_pack"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      " S ",
+      "SLS",
+      " S "
+    ],
+    "key": {
+      "S": { "item": "minecraft:snowball" },
+      "L": { "item": "minecraft:leather" }
+    },
+    "unlock": [
+      { "item": "minecraft:snowball" },
+      { "item": "minecraft:leather" }
+    ],
+    "result": {
+      "item": "climate:ice_pack",
+      "count": 1
+    }
+  }
+}

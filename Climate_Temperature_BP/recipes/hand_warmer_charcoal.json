@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "climate:hand_warmer_charcoal"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      " C ",
+      "LFL",
+      " C "
+    ],
+    "key": {
+      "C": { "item": "minecraft:copper_ingot" },
+      "L": { "item": "minecraft:leather" },
+      "F": { "item": "minecraft:charcoal" }
+    },
+    "unlock": [
+      { "item": "minecraft:copper_ingot" },
+      { "item": "minecraft:charcoal" }
+    ],
+    "result": {
+      "item": "climate:hand_warmer",
+      "count": 1
+    }
+  }
+}

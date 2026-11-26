@@ -1,0 +1,5 @@
+pack.name=Climate & Temperature Survival [RP]
+pack.description=Textures and localization for the Climate & Temperature Survival Add-On.
+item.climate:thermometer=Pocket Thermometer
+item.climate:ice_pack=Frost Cooling Pack
+item.climate:hand_warmer=Ember Hand Warmer

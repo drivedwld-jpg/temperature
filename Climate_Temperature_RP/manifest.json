@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Climate & Temperature Survival [RP]",
+    "description": "Textures and UI localization for the Climate & Temperature Survival Add-On (Thermometer, Cooling Pack, and Ember Warmer).",
+    "uuid": "8d4c19a2-51e7-4e91-a24f-6b1908c73101",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 10]
+  },
+  "modules": [
+    {
+      "description": "Climate & Temperature Resource Pack",
+      "type": "resources",
+      "uuid": "3f92b418-78c2-44d6-935a-2081b76e4202",
+      "version": [1, 0, 0]
+    }
+  ]
+}

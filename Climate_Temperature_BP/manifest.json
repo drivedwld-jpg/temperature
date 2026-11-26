@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Climate & Temperature Survival [BP]",
+    "description": "Full survival body & ambient temperature system powered by Bedrock biome lookup up to Dappled Forest (1.26.x). Includes craftable Pocket Thermometer, Frost Cooling Pack, and Ember Hand Warmer.",
+    "uuid": "a72e54b9-93c1-4b88-87e3-14f903a55103",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 10]
+  },
+  "modules": [
+    {
+      "description": "Climate & Temperature Data",
+      "type": "data",
+      "uuid": "c18a62d4-37f0-49c5-b41e-89a340e16204",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "Climate & Temperature Script Engine",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "e54b90f1-62d8-4a17-9e3c-77b125c87305",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "8d4c19a2-51e7-4e91-a24f-6b1908c73101",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.6.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}

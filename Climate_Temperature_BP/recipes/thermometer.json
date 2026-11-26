@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "climate:thermometer"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      " G ",
+      "CRC",
+      " C "
+    ],
+    "key": {
+      "G": { "item": "minecraft:glass" },
+      "C": { "item": "minecraft:copper_ingot" },
+      "R": { "item": "minecraft:redstone" }
+    },
+    "unlock": [
+      { "item": "minecraft:copper_ingot" },
+      { "item": "minecraft:redstone" }
+    ],
+    "result": {
+      "item": "climate:thermometer",
+      "count": 1
+    }
+  }
+}

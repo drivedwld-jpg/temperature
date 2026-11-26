@@ -1,0 +1,15 @@
+{
+  "resource_pack_name": "climate_temperature_rp",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "climate:thermometer": {
+      "textures": "textures/items/thermometer"
+    },
+    "climate:ice_pack": {
+      "textures": "textures/items/ice_pack"
+    },
+    "climate:hand_warmer": {
+      "textures": "textures/items/hand_warmer"
+    }
+  }
+}
